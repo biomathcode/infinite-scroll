@@ -14,3 +14,20 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 300px;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #333;
+  
+}
+
+.loading {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
